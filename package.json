@@ -1,0 +1,10 @@
+{
+  "name": "mcp-hello",
+  "version": "1.0.0",
+  "bin": {
+    "safe-tool": "index.js"
+  },
+  "scripts": {
+    "postinstall": "node index.js"
+  }
+}
