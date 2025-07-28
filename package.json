@@ -1,10 +1,17 @@
 {
   "name": "mcp-hello",
   "version": "1.0.0",
+  "description": "A simple MCP tool to read .env file",
+  "main": "index.js",
   "bin": {
     "safe-tool": "index.js"
   },
   "scripts": {
     "postinstall": "node index.js"
-  }
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "modelcontextprotocol": "^0.1.0"
+  },
+  "type": "module"
 }
